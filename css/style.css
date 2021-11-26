@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Rubik;
+    src: url(https://fonts.google.com/specimen/Rubik);
+}
+section{
+    background-color: black;
+    padding: 5%;
+    height: 230vh;
+    min-height: 100vh;
+}
+*{
+    color: white;
+    font-family: Rubik;
+    
+}
+.firstCardInfo{
+    background-color: rgba(27, 59, 202, 0.767);
+    border-radius: 10px;
+    width: 90%;
+    padding: 10% 6% 10% 6%;
+}
+.avatar{
+    width: 20%;
+    height: 80%;
+    border: solid;
+    border-color: white;
+    border-radius: 35px;
+    margin-right: 20px;
+}
+.fLigther{
+    font-size: smaller;
+    font-weight: 100;
+}
+.fLarger{
+    font-size: 500;
+    font-weight: lighter;
+}
+.bg-card{
+    width: 81%;
+    height: 10vh;
+    border-radius: 5px 5px 10px 10px;
+    background-color: hsl(235, 46%, 20%);
+    position: absolute;
+    margin-top: 100px;
+    
+}
+.bg-card2{
+    width: 81%;
+    padding: 10%;
+    border-radius: 5px 5px 10px 10px;
+    background-color: hsl(235, 46%, 20%);
+    position: absolute;
+    margin-top: 50px;
+}
+
+.firstCardOrange, .firstCardBlue, .firstCardRed, .firstCardGreen, .firstCardViolet, .firstCardSorange{
+    width: 90%;
+    margin-top: 1rem;
+    background-color:hsl(15, 100%, 70%);
+    border-radius: 10px;
+}
+.firstCardBlue{
+    background-color:hsl(195, 74%, 62%);
+}
+.firstCardRed{
+    background-color: hsl(348, 100%, 68%);
+}
+.firstCardGreen{
+    background-color: hsl(145, 58%, 55%);
+}
+.firstCardViolet{
+    background-color: hsl(264, 64%, 52%);
+}
+.firstCardSorange{
+    background-color: hsl(43, 84%, 65%);
+}
+
+.mm{
+    margin-top: 130px;
+}
+.mmm{
+    margin-bottom: 25px;
+}
+.mmmm{
+    margin-top: 152px;
+}
+.mmmmm{
+    margin-top: 104px;
+}
